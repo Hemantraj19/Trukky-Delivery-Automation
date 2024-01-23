@@ -72,7 +72,7 @@ next_button.click()
 time.sleep(1)
 
 phone_number = driver.find_element(By.XPATH, '//*[@id="__next"]/div/main/div[1]/form/div/input')
-phone_number.send_keys('7808472557')
+phone_number.send_keys('your phonr number')
 time.sleep(2)
 
 submit_button = driver.find_element(By.XPATH, '//*[@id="__next"]/div/main/div[2]/button')
